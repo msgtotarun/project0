@@ -9,9 +9,12 @@ body {
 }
 
 $colour:aliceblue;
+%display{
+    display: flex;
+}
 
 .nav-bar {
-    display: flex;
+   @extend %display;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(14, 14, 150);
@@ -26,7 +29,7 @@ $colour:aliceblue;
 .nav-links ul {
     margin: 0;
     padding: 0;
-    display: flex;
+    @extend %display;
 
     li {
         list-style: none;
@@ -95,4 +98,14 @@ $colour:aliceblue;
     .nav-links.active {
         display: flex;
     }
+}
+.para {
+    margin-left: 25%;
+    font-size: larger;
+    margin-top: 23vh;
+    width: 60%;
+}
+.tab{
+    margin-top: 20%;
+    margin-left:26% ;
 }

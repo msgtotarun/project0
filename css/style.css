@@ -9,10 +9,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-bar {
+.nav-bar, .nav-links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav-bar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -31,9 +34,6 @@ body {
 .nav-links ul {
   margin: 0;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .nav-links ul li {
@@ -111,5 +111,17 @@ body {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.para {
+  margin-left: 25%;
+  font-size: larger;
+  margin-top: 23vh;
+  width: 60%;
+}
+
+.tab {
+  margin-top: 20%;
+  margin-left: 26%;
 }
 /*# sourceMappingURL=style.css.map */
